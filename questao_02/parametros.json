@@ -1,0 +1,13 @@
+{
+  "elasticidade_concorrencia": 1.0,
+  "fator_valor_residual": 0.5,
+  "destaque": {
+    "aumento_demanda": 0.25,
+    "custo_pct_receita": 0.06,
+    "max_por_semana": 4
+  },
+  "taxas_urgencia": [0.0, 0.02, 0.05, 0.10, 0.20],
+  "percentil_risco": 10,
+  "cenarios_construcao": 2000,
+  "cenarios_validacao": 5000
+}
