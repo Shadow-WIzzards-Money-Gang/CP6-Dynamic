@@ -1,0 +1,2 @@
+# Mantém os arquivos oficiais byte a byte (os hashes SHA-256 do manifesto dependem disso)
+data/** -text

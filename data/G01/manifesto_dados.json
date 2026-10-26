@@ -1,0 +1,15 @@
+{
+  "grupo": "G01",
+  "quantidade_integrantes": 3,
+  "seed_base": 16,
+  "seed_final": 1016,
+  "id_instancia": "29b470fd0b1c",
+  "arquivos": {
+    "q1_catalogo_G01.csv": "40fdcfb01fc6003392d1e6d095baa45e1a060f63774fa3c48513321e19b6c4e4",
+    "q1_config_G01.json": "74bc2742780da18245b96a289bb623fc6388ea5db4bfafe6181bd3f5e474d712",
+    "q2_catalogo_G01.csv": "6ba667c1081770277d863f617d9bb148fbb5f971e2727c987e76dfe9babb0272",
+    "q2_config_G01.json": "b6c1eda399ac28efc8f521cf696e7599a74c6b680c0252fe4c469f7f8e2fc7c2"
+  },
+  "sha256_conjunto": "29b470fd0b1c211416b303df3172fa55fd69c0141a28f0043ec01ceb72833202",
+  "aviso": "Os arquivos originais devem ser preservados. Qualquer alteração modificará o hash."
+}
