@@ -1,0 +1,31 @@
+{
+  "fracao_max_skus_com_desconto": 0.30,
+  "tamanho_subconjunto_bf": 7,
+  "repeticoes_ga": 5,
+  "incentivo": {
+    "passos": [0.02, 0.04, 0.06, 0.08, 0.10],
+    "orcamento_e_verba_separada": true
+  },
+  "ga": {
+    "principal": {
+      "nome": "B_robusta",
+      "populacao": 100,
+      "geracoes": 300,
+      "taxa_crossover": 0.9,
+      "taxa_mutacao": null,
+      "torneio": 3,
+      "elitismo": 2,
+      "paciencia": 60
+    },
+    "comparacao": {
+      "nome": "A_enxuta",
+      "populacao": 30,
+      "geracoes": 100,
+      "taxa_crossover": 0.8,
+      "taxa_mutacao": null,
+      "torneio": 2,
+      "elitismo": 1,
+      "paciencia": 25
+    }
+  }
+}
