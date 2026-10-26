@@ -1,0 +1,13 @@
+entrada,n_skus,estoque_max_S,demanda_max_K,etapa,segundos,pico_mb
+pequena,8,389,105,monte_carlo_estimativa,0.0145,3.201
+pequena,8,389,105,dp,0.006,1.432
+pequena,8,389,105,greedy,0.0058,0.009
+pequena,8,389,105,monte_carlo_validacao,0.0332,8.205
+media,24,540,102,monte_carlo_estimativa,0.0137,9.551
+media,24,540,102,dp,0.0112,2.25
+media,24,540,102,greedy,0.014,0.023
+media,24,540,102,monte_carlo_validacao,0.1074,23.16
+grande,24,2160,102,monte_carlo_estimativa,0.0136,9.551
+grande,24,2160,102,dp,0.0449,8.935
+grande,24,2160,102,greedy,0.0158,0.02
+grande,24,2160,102,monte_carlo_validacao,0.1458,23.16

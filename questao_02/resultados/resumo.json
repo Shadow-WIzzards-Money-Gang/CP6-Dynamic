@@ -1,0 +1,150 @@
+{
+  "instancia": {
+    "grupo": "G01",
+    "id_instancia": "29b470fd0b1c",
+    "seed_final": 1016,
+    "seed_algoritmos": 1016,
+    "skus": 24,
+    "cenarios_construcao": 2000,
+    "cenarios_validacao": 5000
+  },
+  "cenario": {
+    "concorrente_fator": 1.0,
+    "frete_fator": 1.0,
+    "orcamento_fator": 1.0,
+    "divida_fator": 1.0,
+    "estoque_fator": 1.0,
+    "remover_sku": [],
+    "max_skus": null
+  },
+  "dividas": {
+    "4": 67220.98,
+    "8": 86827.09,
+    "12": 126039.33
+  },
+  "caixa_inicial": 19450.59,
+  "taxa_urgencia_escolhida": 0.1,
+  "destaques_alocados": 30,
+  "custo_destaques_total": 9386.74,
+  "validacao": {
+    "preco_atual_fixo": {
+      "prob_pagar_semana_4": 1.0,
+      "prob_pagar_semana_8": 1.0,
+      "prob_pagar_semana_12": 1.0,
+      "prob_pagar_todas": 1.0,
+      "caixa_final_medio": 83888.52640593123,
+      "caixa_final_p10": 81126.83809261,
+      "caixa_final_p50": 83847.06041404886,
+      "caixa_final_p90": 86788.4989155864,
+      "margem_media_pct": 18.432426478137707,
+      "receita_media": 1869126.3291600002,
+      "estoque_final_medio_unidades": 551.2896,
+      "estoque_final_medio_valor_custo": 237742.513418,
+      "cenarios_com_falha": 0.0,
+      "falhas_iniciadas_semana_4": 0.0,
+      "falhas_iniciadas_semana_8": 0.0,
+      "falhas_iniciadas_semana_12": 0.0,
+      "deficit_medio_no_vencimento_quando_falha": 0.0
+    },
+    "dp_sem_greedy": {
+      "prob_pagar_semana_4": 1.0,
+      "prob_pagar_semana_8": 1.0,
+      "prob_pagar_semana_12": 1.0,
+      "prob_pagar_todas": 1.0,
+      "caixa_final_medio": 239392.8528671391,
+      "caixa_final_p10": 234932.97704006723,
+      "caixa_final_p50": 239401.87646858772,
+      "caixa_final_p90": 243841.5336699963,
+      "margem_media_pct": 25.60041027765591,
+      "receita_media": 1953209.5675184005,
+      "estoque_final_medio_unidades": 764.158,
+      "estoque_final_medio_valor_custo": 316396.689334,
+      "cenarios_com_falha": 0.0,
+      "falhas_iniciadas_semana_4": 0.0,
+      "falhas_iniciadas_semana_8": 0.0,
+      "falhas_iniciadas_semana_12": 0.0,
+      "deficit_medio_no_vencimento_quando_falha": 0.0
+    },
+    "dp_mais_greedy": {
+      "prob_pagar_semana_4": 1.0,
+      "prob_pagar_semana_8": 1.0,
+      "prob_pagar_semana_12": 1.0,
+      "prob_pagar_todas": 1.0,
+      "caixa_final_medio": 245022.01442143,
+      "caixa_final_p10": 240429.24261316485,
+      "caixa_final_p50": 245130.7249032275,
+      "caixa_final_p90": 249653.27112010887,
+      "margem_media_pct": 25.491885142783858,
+      "receita_media": 1983607.0247028,
+      "estoque_final_medio_unidades": 708.2292,
+      "estoque_final_medio_valor_custo": 305457.87287599995,
+      "cenarios_com_falha": 0.0,
+      "falhas_iniciadas_semana_4": 0.0,
+      "falhas_iniciadas_semana_8": 0.0,
+      "falhas_iniciadas_semana_12": 0.0,
+      "deficit_medio_no_vencimento_quando_falha": 0.0
+    }
+  },
+  "medicoes": [
+    {
+      "etapa": "A_monte_carlo_estimativa",
+      "segundos": 0.0146,
+      "pico_mb": 9.553
+    },
+    {
+      "etapa": "B_dp_urgencia_0.0",
+      "segundos": 0.0115,
+      "pico_mb": 2.219
+    },
+    {
+      "etapa": "C_greedy_urgencia_0.0",
+      "segundos": 0.014,
+      "pico_mb": 0.027
+    },
+    {
+      "etapa": "B_dp_urgencia_0.02",
+      "segundos": 0.0108,
+      "pico_mb": 2.216
+    },
+    {
+      "etapa": "C_greedy_urgencia_0.02",
+      "segundos": 0.0136,
+      "pico_mb": 0.027
+    },
+    {
+      "etapa": "B_dp_urgencia_0.05",
+      "segundos": 0.0116,
+      "pico_mb": 2.216
+    },
+    {
+      "etapa": "C_greedy_urgencia_0.05",
+      "segundos": 0.0185,
+      "pico_mb": 0.025
+    },
+    {
+      "etapa": "B_dp_urgencia_0.1",
+      "segundos": 0.0111,
+      "pico_mb": 2.216
+    },
+    {
+      "etapa": "C_greedy_urgencia_0.1",
+      "segundos": 0.0169,
+      "pico_mb": 0.027
+    },
+    {
+      "etapa": "B_dp_urgencia_0.2",
+      "segundos": 0.0107,
+      "pico_mb": 2.216
+    },
+    {
+      "etapa": "C_greedy_urgencia_0.2",
+      "segundos": 0.0159,
+      "pico_mb": 0.029
+    },
+    {
+      "etapa": "D_monte_carlo_validacao",
+      "segundos": 0.1072,
+      "pico_mb": 23.16
+    }
+  ]
+}

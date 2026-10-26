@@ -1,0 +1,89 @@
+{
+  "instancia": {
+    "grupo": "G01",
+    "id_instancia": "29b470fd0b1c",
+    "seed_final": 1016,
+    "seed_algoritmos": 1016,
+    "skus": 29,
+    "max_skus_com_desconto": 8
+  },
+  "cenario": {
+    "meta_fator": 1.1,
+    "orcamento_fator": 0.75,
+    "frete_fator": 1.15,
+    "skus_removidos": [
+      "Q1-012"
+    ]
+  },
+  "forca_bruta": {
+    "skus": [
+      "Q1-003",
+      "Q1-006",
+      "Q1-014",
+      "Q1-017",
+      "Q1-021",
+      "Q1-029",
+      "Q1-030"
+    ],
+    "combinacoes": 230400,
+    "caixa_otimo": 298434.3146130001,
+    "gap_medio_ga_pct": 0.0
+  },
+  "ga": {
+    "config_principal": {
+      "nome": "B_robusta",
+      "populacao": 100,
+      "geracoes": 300,
+      "taxa_crossover": 0.9,
+      "taxa_mutacao": null,
+      "torneio": 3,
+      "elitismo": 2,
+      "paciencia": 60
+    },
+    "caixa_melhor": 520643.72486400016,
+    "referencia_exata": 520643.72486400016,
+    "gap_pct": 0.0
+  },
+  "antes_do_greedy": {
+    "receita": 2313172.8400000003,
+    "caixa": 520643.72486400016,
+    "margem_percentual": 0.22507774423981222,
+    "unidades_vendidas": 2816,
+    "estoque_remanescente": 1514,
+    "estoque_remanescente_custo": 723238.83,
+    "skus_com_desconto": 0,
+    "skus_pausados": 4
+  },
+  "status_quo_preco_atual": {
+    "receita": 2338987.07,
+    "caixa": 389612.35397700005,
+    "margem_percentual": 0.16657311148667447,
+    "unidades_vendidas": 3167,
+    "estoque_remanescente": 1163,
+    "estoque_remanescente_custo": 580761.83,
+    "skus_com_desconto": 0,
+    "skus_pausados": 4
+  },
+  "resultado_final": {
+    "caixa_operacional": 546427.28,
+    "incentivo_utilizado": 52691.51,
+    "orcamento_promocional": 53009.29,
+    "uso_orcamento_pct": 99.4,
+    "caixa_disponivel_para_divida": 546427.28,
+    "meta_caixa_90d": 459618.24,
+    "meta_atingida": true,
+    "folga_ou_insuficiencia": 86809.04,
+    "divida_total_90d": 430977.96,
+    "cobertura_divida_pct": 126.79,
+    "margem_percentual": 22.78,
+    "margem_minima_pct": 5.05,
+    "unidades_vendidas": 3099,
+    "estoque_remanescente": 1231,
+    "estoque_remanescente_valor_custo": 679389.95
+  },
+  "greedy_medicao": {
+    "etapa": "greedy",
+    "segundos": 0.002,
+    "pico_mb": 0.015
+  }
+}
